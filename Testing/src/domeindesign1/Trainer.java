@@ -12,7 +12,7 @@ public class Trainer extends NPC{
 	ArrayList<String> bezitpokemons = new ArrayList<String>();
 	
 	public Trainer(String nm, int bd, boolean gl, boolean ef) {
-		super(nm)
+		super(nm);
 		badges = bd;
 		gymleader = gl;
 		elitefour = ef;
